@@ -1,0 +1,114 @@
+/* Đặt lại một số kiểu mặc định */  
+body {  
+    font-family: Arial, sans-serif;  
+    line-height: 1.6;  
+    margin: 0;  
+    padding: 0;  
+    background-color: #f7f7f7;  
+}  
+
+/* Liên kết "Skip to Main Content" */  
+.skip-link {  
+    position: absolute;  
+    top: -40px; /* Ẩn khỏi view */  
+    left: 0;  
+    background-color: #ffcc00; /* Màu nền */  
+    color: #333; /* Màu chữ */  
+    padding: 10px;  
+    z-index: 100; /* Nằm phía trên các phần khác */  
+}  
+
+.skip-link:focus {  
+    top: 0; /* Hiện khi focus */  
+}  
+
+/* Định dạng cho tiêu đề chính */  
+header {  
+    background: #ffcc00; /* Màu nền vàng */  
+    padding: 20px 0;  
+    text-align: center;  
+}  
+
+/* Kiểu cho các tiêu đề phụ */  
+h1 {  
+    color: #333; /* Màu chữ */  
+    font-size: 2.5em;  
+}  
+
+h2 {  
+    color: #ff6600; /* Màu chữ cam */  
+    margin-top: 20px;  
+}  
+
+/* Định dạng cho phần nội dung chính */  
+main {  
+    max-width: 800px; /* Giới hạn chiều rộng */  
+    margin: 20px auto; /* Căn giữa */  
+    padding: 20px;  
+    background: white; /* Nền trắng cho phần nội dung */  
+    border-radius: 8px; /* Bo góc */  
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Đổ bóng */  
+}  
+
+/* Định dạng cho nav */  
+nav {  
+    display: inline-block; /* Sử dụng inline-block */  
+    width: 80%; /* Chiều rộng khoảng 80% */  
+}  
+
+/* Image trong nav */  
+nav img {  
+    width: 10%; /* Kích thước hình ảnh trong nav */  
+}  
+
+/* Định dạng danh sách nguyên liệu */  
+ul {  
+    padding-left: 20px; /* Thêm khoảng cách bên trái cho danh sách */  
+}  
+
+/* Định dạng cho các hình ảnh trong grid */  
+.grid img {  
+    width: 100%; /* Kích thước hình ảnh trong grid */  
+}  
+
+/* Định dạng cho grid class */  
+.grid {  
+    display: grid;  
+    grid-template-columns: repeat(2, 40%); /* Hai cột 40% */  
+    justify-content: center; /* Căn giữa */  
+    align-items: start; /* Căn phần tử lên trên */  
+    row-gap: 20px; /* Khoảng cách giữa các hàng */  
+}  
+
+/* Định dạng cho các phần tử trong flex class */  
+.flex {  
+    display: flex; /* Sử dụng flexbox */  
+    flex-wrap: wrap; /* Cho phép bọc */  
+    justify-content: space-around; /* Căn giữa các phần tử */  
+}  
+
+/* Định dạng footer */  
+footer {  
+    text-align: center;  
+    padding: 10px 0;  
+    background: #333; /* Màu nền tối */  
+    color: white; /* Màu chữ trắng */  
+    position: relative; /* Để footer ở vị trí hợp lý */  
+    bottom: 0;  
+    width: 100%; /* Đảm bảo footer luôn rộng 100% */  
+}  
+
+/* Định dạng cho liên kết */  
+a {  
+    color: #0066cc; /* Màu chữ link */  
+    text-decoration: none; /* Bỏ gạch chân */  
+}  
+
+a:hover {  
+    text-decoration: underline; /* Gạch chân khi hover */  
+}  
+
+/* Hủy bỏ styling cho li */  
+// li {  
+//     /* styling cho li sẽ được ngắt dòng */  
+// }  
